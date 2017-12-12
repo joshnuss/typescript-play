@@ -6,9 +6,21 @@ Test your typescript locally
 hub clone joshnuss/typescript-play
 ```
 
-### Running
+## Instructions
+
+### Run a file
 
 ```shell
 echo "console.log(123)" > test.ts
 yarn ts-node test.ts
 ```
+
+### Run REPL
+
+```shell
+yarn ts-node
+```
+
+## License
+
+MIT
